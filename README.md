@@ -31,3 +31,13 @@ from calculator import add, subtract
 print(add(2, 3))       # 5가 출력됩니다.
 print(subtract(7, 4))  # 3이 출력됩니다.
 ```
+
+## 변경 후 테스트 실행 방법
+
+`subtract(a, b)` 같은 새 기능을 추가하거나 수정한 뒤에는 아래 명령어로 전체 테스트를 다시 실행합니다.
+
+```bash
+python3 -m unittest test_calculator.py
+```
+
+테스트가 모두 통과하면 `add`와 `subtract` 기능이 기대한 대로 동작하는지 확인할 수 있습니다.
